@@ -166,9 +166,16 @@ footer span {
 	height: 50px;
 }
 
-footer span a, a:hover {
+footer span a, footer span a:hover {
 	font-weight: 700px;
 	color: #FFF;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+
+/* planting-dates */
+
+.table th td {
+	font-weight: 700;
 }

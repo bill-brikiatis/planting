@@ -17,3 +17,8 @@ Route::get('/', function()
 });
 
 Route::get('/', 'PlantsController@postPlantList');
+
+Route::get('/planting-dates', function()
+{
+	return View::make('planting-dates');
+});
