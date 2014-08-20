@@ -17,9 +17,9 @@ class PlantTable extends Migration {
 			$table->increments('id');
 			$table->timestamps();
 			$table->string('plant_name')->unique();
-			$table->integer('indoor_offset_days');
-			$table->integer('outdoor_offset_days');
-			$table->integer('transplant_offset_days');
+			$table->integer('indoor_offset_days')->nullable();
+			$table->integer('outdoor_offset_days')->nullable();
+			$table->integer('transplant_offset_days')->nullable();
 			$table->boolean('direct_sow')->nullable();
 		});
 	}
