@@ -27,7 +27,8 @@
 				
 				{{ Form::open() }}
 				{{ Form::label('last_frost', 'Enter Last Frost Date:', array('class' => 'less_space')); }}
-				{{ Form::input('date', 'date', null, ['class' => 'form-control', 'placeholder' => 'Date']) }}<br/>
+				{{ Form::text('date', 'MM/DD/YYYY', ['class' => 'form-control', 'id' => 'myDatepicker' 
+				]) }}<br/>
 				
 			<h2>Step #2 Select Your Plants</h2>
 			
