@@ -126,6 +126,10 @@ article.main .row {
 	width: 20%;	
 }
 
+.less_space {
+	margin-bottom: 15px;
+}
+
 .btn-margin {
 	margin-right: 15px;
 }

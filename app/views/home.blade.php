@@ -17,25 +17,18 @@
 				<p>The result is a list of your plants with associated planting dates to help you 
 					plan your garden.</p>
 					
-			<h2>Step #1 Enter Your Frost Free Dates</h2>
+			<h2>Step #1 Enter Your Last Frost Date</h2>
 					
-				<p>Enter the last frost date and first frost free date for your location. The last frost date is the 
-					last date in the spring after which there is little chance of killing frost. The first frost free 
-					date is the first day in the fall when there is little chance of killing frost.</p>
+				<p>Enter the last frost date for your location. The last frost date is the last date in 
+					spring after which there is little chance of killing frost.</p>
 					
-				<p>If you don’t know your frost free dates, you can find them easily at 
+				<p>If you don’t know your last frost date, you can find easily at 
 					<a href="http://www.plantmaps.com/" target="_blank">PlantMaps</a> from the USDA.</p>
 				
 				{{ Form::open() }}
-				{{ Form::label('last_frost', 'Enter Last Frost Date:'); }}
-				{{ Form::input('date', 'date', null, ['class' => 'form-control', 'placeholder' => 'Date']) }}<br><br />
-				{{ Form::label('first_frost', 'Enter First Frost Date:'); }}
-				{{ Form::input('date', 'date', null, ['class' => 'form-control', 'placeholder' => 'Date']) }}<br><br />
-				{{ Form::submit('Submit', ['class' => 'btn btn-success']) }}
-				{{ Form::close() }}
-		<!-- </div>
-	
-			<div class="row"> -->
+				{{ Form::label('last_frost', 'Enter Last Frost Date:', array('class' => 'less_space')); }}
+				{{ Form::input('date', 'date', null, ['class' => 'form-control', 'placeholder' => 'Date']) }}<br/>
+				
 			<h2>Step #2 Select Your Plants</h2>
 			
 				<p>Select the plants you’ll be growing:</p>
@@ -48,21 +41,20 @@
 				
 				?>
 				
-				{{ Form::open() }}
 				<div class="col-md-6">
 					@for ($i = 0; $i <= $limit; $i++)
 						{{ Form::checkbox($plant_list[$i], $plant_list[$i]) }}
-						{{ Form::label('plants', $plant_list[$i]) }}<br><br />
+						{{ Form::label('plants', $plant_list[$i]) }}<br>
 					@endfor
 				</div>
 				<div class="col-md-6">
 					@for ($i=($limit+1); $i <= $count; $i++)
 						{{ Form::checkbox($plant_list[$i], $plant_list[$i]) }}
-						{{ Form::label('plants', $plant_list[$i]) }}<br><br />
+						{{ Form::label('plants', $plant_list[$i]) }}<br>
 					@endfor
 				</div>
 				<div class="col-md-12">
-					{{ Form::submit('Calculate', ['class' => 'btn btn-success btn-margin']) }}
+					<br />{{ Form::submit('Calculate', ['class' => 'btn btn-success btn-margin']) }}
 					{{ Form::reset('Clear Form', ['class' => 'btn btn-danger']) }}
 					{{ Form::close() }}
 				</div>
