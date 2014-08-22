@@ -25,10 +25,18 @@ Your Planting Dates
 					@if ($row->plant_name)
 						@if ($row->indoor_offset_days === 0)
 							<?php $row->indoor_offset_days = "Not Applicable"; ?>
+							<?php $row->transplant_offset_days = "Not Applicable"; ?>
 						@else
 							<?php $row->indoor_offset_days = date('m/d/Y', strtotime(date("Y-m-d", strtotime($date)) . $row->indoor_offset_days . "days")); ?>
+							<?php $row->transplant_offset_days = date('m/d/Y', strtotime(date("Y-m-d", strtotime($date)) . $row->transplant_offset_days . "days")); ?>
 						@endif
-						<tr><td>{{ $row->plant_name }}</td><td>{{ $row->indoor_offset_days }}</td></tr>
+						@if ($row->direct_sow)
+							<?php $row->outdoor_offset_days = date('m/d/Y', strtotime(date("Y-m-d", strtotime($date)) . $row->outdoor_offset_days . "days")); ?>
+						@else
+							<?php $row->outdoor_offset_days = "Not Applicable"; ?>
+						@endif
+						<tr><td>{{ $row->plant_name }}</td><td>{{ $row->indoor_offset_days }}</td><td>{{ $row->transplant_offset_days }}</td>
+							<td>{{ $row->outdoor_offset_days }}</td></tr>
 					@endif
 				@endforeach
 			@endforeach
