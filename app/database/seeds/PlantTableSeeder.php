@@ -13,7 +13,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 21,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -27,7 +32,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -10,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -41,7 +51,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -10,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -55,7 +70,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -69,7 +89,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 0,
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -83,7 +108,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -56,
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -97,7 +127,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -111,7 +146,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -125,7 +165,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -42,
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => -7,
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -139,7 +184,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -153,7 +203,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -56,
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 0,
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -167,7 +222,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -181,7 +241,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 28,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -195,7 +260,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -209,7 +279,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -7,
 				'outdoor_offset_days' => 28,
 				'transplant_offset_days' => 7,
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -223,7 +298,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -28,
 				'outdoor_offset_days' => 'NULL',
 				'transplant_offset_days' => 14,
-				'direct_sow' => 0
+				'direct_sow' => 0,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -237,7 +317,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -251,7 +336,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 24,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -265,7 +355,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -279,7 +374,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -293,7 +393,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -307,7 +412,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -321,7 +431,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 24,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -335,7 +450,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -349,7 +469,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -363,7 +488,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -377,7 +507,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 24,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -391,7 +526,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -405,7 +545,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -419,7 +564,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -433,7 +583,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -28,
 				'outdoor_offset_days' => 'NULL',
 				'transplant_offset_days' => 28,
-				'direct_sow' => 0
+				'direct_sow' => 0,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -447,7 +602,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -14,
 				'outdoor_offset_days' => 'NULL',
 				'transplant_offset_days' => 14,
-				'direct_sow' => 0
+				'direct_sow' => 0,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -461,7 +621,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -475,7 +640,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -489,7 +659,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -503,7 +678,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -517,7 +697,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -531,7 +716,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -14,
 				'outdoor_offset_days' => 'NULL',
 				'transplant_offset_days' => 14,
-				'direct_sow' => 0
+				'direct_sow' => 0,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -545,7 +735,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => 0,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -559,7 +754,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => -28,
 				'outdoor_offset_days' => 'NULL',
 				'transplant_offset_days' => 14,
-				'direct_sow' => 0
+				'direct_sow' => 0,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();
@@ -573,7 +773,12 @@ class PlantTableSeeder extends Seeder
 				'indoor_offset_days' => 'NULL',
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
-				'direct_sow' => 1
+				'direct_sow' => 1,
+				'ads' => '<span>Advertisement</span>
+		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
+			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
+		</a>'
+		
 		));
 		
 		$plant->save();

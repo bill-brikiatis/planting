@@ -154,11 +154,11 @@ aside.sidebar span {
 	font-weight: 700;
 	color: #040404;
 	display: block;
-	margin: 10px 0 10px 10px;
+	margin: 20px 0 10px 20px;
 }
 
 aside.sidebar img {
-	margin: 10px 0 10px 10px;
+	margin: 10px 0 10px 20px;
 }
 
 footer {

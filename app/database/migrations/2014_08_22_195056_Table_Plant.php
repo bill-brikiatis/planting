@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class PlantTable extends Migration {
+class TablePlant extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -21,6 +21,7 @@ class PlantTable extends Migration {
 			$table->integer('outdoor_offset_days')->nullable();
 			$table->integer('transplant_offset_days')->nullable();
 			$table->boolean('direct_sow')->nullable();
+			$table->text('ads')->nullable();
 		});
 	}
 

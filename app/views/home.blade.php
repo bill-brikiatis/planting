@@ -64,17 +64,17 @@
 	<!--<div class="clear_bb"></div>-->
 	
 	<aside class="sidebar">
-		<span>Advertisement</span>
+		<span>Click the Photo for<br />High Tunnel Details</span>
 		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
 			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
 		</a>
-		<span>Advertisement</span>
-		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
-			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
-		</a>
-		<span>Advertisement</span>
-		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
-			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
-		</a>
+		
+		<span>Click the Photo for<br /> Artichoke Seed Details</span>
+		<a href="http://www.amazon.com/gp/product/B0032G8LQE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0032G8LQE&linkCode=as2&tag=subuhobbfarm-20&linkId=UXY3OCQ3FWL6WW6X"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0032G8LQE&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B0032G8LQE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+		
+		
+		<span>Click the Photo for<br /> Arugula Seed Details</span>
+		<a href="http://www.amazon.com/gp/product/B0006BK56M/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0006BK56M&linkCode=as2&tag=subuhobbfarm-20&linkId=7QIM4H5QWNIM2YJD"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0006BK56M&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B0006BK56M" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 	</aside>
 @stop

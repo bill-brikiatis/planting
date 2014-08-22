@@ -14,6 +14,6 @@ class Plant extends Eloquent {
 	 * @var array
 	 */
 	
-	protected $fillable = array('plant_name', 'indoor_offset_days', 'outdoor_offset_days', 'transplant_offset_days', 'direct_sow');
+	protected $fillable = array('plant_name', 'indoor_offset_days', 'outdoor_offset_days', 'transplant_offset_days', 'direct_sow', 'ads');
 
 }
