@@ -22,10 +22,10 @@
 				<p>Enter the last frost date for your location. The last frost date is the last date in 
 					spring after which there is little chance of killing frost.</p>
 					
-				<p>If you don’t know your last frost date, you can find easily at 
+				<p>If you don’t know your last frost date, you can find it easily at 
 					<a href="http://www.plantmaps.com/" target="_blank">PlantMaps</a> from the USDA.</p>
 				
-				{{ Form::open() }}
+				{{ Form::open(array('url' => '/planting-dates')) }}
 				{{ Form::label('last_frost', 'Enter Last Frost Date:', array('class' => 'less_space')); }}
 				{{ Form::text('date', 'MM/DD/YYYY', ['class' => 'form-control', 'id' => 'myDatepicker' 
 				]) }}<br/>
@@ -44,13 +44,13 @@
 				
 				<div class="col-md-6">
 					@for ($i = 0; $i <= $limit; $i++)
-						{{ Form::checkbox($plant_list[$i], $plant_list[$i]) }}
+						{{ Form::checkbox('plant_list[]', $plant_list[$i]) }}
 						{{ Form::label('plants', $plant_list[$i]) }}<br>
 					@endfor
 				</div>
 				<div class="col-md-6">
 					@for ($i=($limit+1); $i <= $count; $i++)
-						{{ Form::checkbox($plant_list[$i], $plant_list[$i]) }}
+						{{ Form::checkbox('plant_list[]', $plant_list[$i]) }}
 						{{ Form::label('plants', $plant_list[$i]) }}<br>
 					@endfor
 				</div>

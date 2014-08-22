@@ -21,7 +21,7 @@
 	<div class="container">
 		<header class="row">
 			@if(Session::get('flash_message'))
-			<div class='alert-success'>{{ Session::get('flash_message') }}</div>
+			<div class='alert-danger'>{{ Session::get('flash_message') }}</div>
 			@endif
 			
 			<nav class="row">
@@ -43,7 +43,6 @@
 		
 		
 			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 			<script>
 			$( "#myDatepicker" ).datepicker();

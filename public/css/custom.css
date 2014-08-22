@@ -13,6 +13,10 @@ article.main {
 	margin-right: 15px;
 }
 
+.alert-danger {
+	font-size: 40px;
+}
+
 /* Header & Nav */
 
 nav.row {

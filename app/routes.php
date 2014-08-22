@@ -23,7 +23,26 @@ Route::get('/', 'PlantsController@postPlantList');
 
 
 /* Planting Dates Route */
-Route::get('/planting-dates', function()
-{
-	return View::make('planting-dates');
-});
+/*Route::post('/planting-dates',
+		array('before' => 'csrf', function()
+			{
+				$rules = array(
+		        'date' => 'date'
+		    );
+		
+		    $validation = Validator::make(Input::all(), $rules);
+		
+		    if ($validation->fails())
+		    {
+		        // Validation has failed.
+		        return Redirect::to('/')
+		        	->with_input()
+		        	->with('flash_message', 'Please enter a last frost date using the proper format.');
+		    }
+    
+    	return View::make('planting-dates');
+}));*/
+
+
+/* Access Plant List */
+Route::post('/planting-dates', 'PlantsController@postFormData');
