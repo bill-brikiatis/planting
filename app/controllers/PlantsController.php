@@ -19,8 +19,19 @@ class PlantsController  extends BaseController {
 			else {
 				
 				$plant_table[] = Plant::all();
-				$date = Input::get('date');
 				$checked_plants[] = Input::get('plant_list');
+				foreach ($plant_table as $plant) {
+					foreach ($plant as $row) {
+						if (!in_array(trim($row->plant_name), $checked_plants[0])) {
+							unset($row->plant_name);
+						}
+					}
+				}
+				
+				
+				
+				$date = Input::get('date');
+				
 				$Seedling = date('n / d / Y', (strtotime($date)));
 				if(is_array($checked_plants)) {
 					return View::make('planting-dates')

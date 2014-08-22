@@ -22,7 +22,9 @@ Your Planting Dates
 			</tr>
 			@foreach ($plant_table as $plant)
 				@foreach ($plant as $row)
-				<tr><td>{{ $row->plant_name }}</td><td>{{ $row->indoor_offset_days }}</td></tr>
+					@if ($row->plant_name)
+						<tr><td>{{ $row->plant_name }}</td><td>{{ $row->indoor_offset_days }}</td></tr>
+					@endif
 				@endforeach
 			@endforeach
 		</table><br />
