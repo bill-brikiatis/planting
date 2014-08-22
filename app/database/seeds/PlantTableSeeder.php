@@ -80,7 +80,7 @@ class PlantTableSeeder extends Seeder
 		
 		$plant->fill(array(
 				'plant_name' => 'Broccoli',
-				'indoor_offset_days' => 56,
+				'indoor_offset_days' => -56,
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
 				'direct_sow' => 1

@@ -19,16 +19,19 @@ class PlantsController  extends BaseController {
 			else {
 				
 				$plant_table[] = Plant::all();
+				//print_r($plant_table);
 				$checked_plants[] = Input::get('plant_list');
 				foreach ($plant_table as $plant) {
 					foreach ($plant as $row) {
 						if (!in_array(trim($row->plant_name), $checked_plants[0])) {
 							unset($row->plant_name);
+							}
+						else {
+							
 						}
 					}
 				}
-				
-				
+			}
 				
 				$date = Input::get('date');
 				
@@ -42,7 +45,7 @@ class PlantsController  extends BaseController {
 					
 				}
 		}
-	}
+	
 	
 	public function postCheckedPlant() {
 		$checked_plants[] = Input::has('plant_list');

@@ -23,6 +23,11 @@ Your Planting Dates
 			@foreach ($plant_table as $plant)
 				@foreach ($plant as $row)
 					@if ($row->plant_name)
+						@if ($row->indoor_offset_days === 0)
+							<?php $row->indoor_offset_days = "Not Applicable"; ?>
+						@else
+							<?php $row->indoor_offset_days = date('m/d/Y', strtotime(date("Y-m-d", strtotime($date)) . $row->indoor_offset_days . "days")); ?>
+						@endif
 						<tr><td>{{ $row->plant_name }}</td><td>{{ $row->indoor_offset_days }}</td></tr>
 					@endif
 				@endforeach
