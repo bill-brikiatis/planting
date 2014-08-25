@@ -278,7 +278,7 @@ class PlantTableSeeder extends Seeder
 		$plant->fill(array(
 				'plant_name' => 'Cucumbers',
 				'indoor_offset_days' => -7,
-				'outdoor_offset_days' => 28,
+				'outdoor_offset_days' => 7,
 				'transplant_offset_days' => 7,
 				'direct_sow' => 1,
 				'ads' => '<span>Click the Photo for<br /> Info on Cucumber Seeds</span>
@@ -661,7 +661,7 @@ class PlantTableSeeder extends Seeder
 				'outdoor_offset_days' => -7,
 				'transplant_offset_days' => 'NULL',
 				'direct_sow' => 1,
-				'ads' => '<span>Click the Photo for<br /> Rhubarb Seeds</span>
+				'ads' => '<span>Click the Photo for<br /> info on Rhubarb Seeds</span>
 		<a href="http://www.amazon.com/gp/product/B005ES9BXU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005ES9BXU&linkCode=as2&tag=subuhobbfarm-20&linkId=EXAKOHN2S27B4IXR">
 		<img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B005ES9BXU&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a>
 		<img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B005ES9BXU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
