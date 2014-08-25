@@ -47,17 +47,23 @@ Your Planting Dates
 </article>
 
 <aside class="sidebar">
-		<span>Advertisement</span>
-		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
-			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
-		</a>
-		<span>Advertisement</span>
-		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
-			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
-		</a>
-		<span>Advertisement</span>
-		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
-			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
-		</a>
+		
+		
+		<?php foreach ($plant_table as $plant): ?>
+			<?php foreach ($plant as $row): ?>
+				<?php if ($row->plant_name): ?>
+						<?php $arr[] = $row->ads; ?>
+					<?php endif; ?>
+			<?php endforeach; ?>
+		<?php endforeach; ?>
+		
+		<?php shuffle($arr); ?>
+		<?php $i = 0; ?>
+		<?php foreach ($arr as $value): ?>
+			<?php if ($i++ >= 4): break; ?>
+			<?php endif; ?>
+			<?php echo $value; ?>
+		<?php endforeach; ?>
+
 	</aside>
 @stop
