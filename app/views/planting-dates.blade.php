@@ -43,7 +43,7 @@ Your Planting Dates
 		</table><br />
 		
 		<p>Please keep in mind that these dates are a guide and may need to be significantly different depending on your exact varieties or environmental conditions.</p>
-		<p>Change Your <a class="link" href="planting-dates.suburbanhobbyfarmer.com">Plant Selection</a></p>
+		<p>Change Your <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">Plant Selection</a></p>
 	</div><!--.row -->
 </article>
 
