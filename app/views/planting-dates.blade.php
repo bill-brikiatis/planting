@@ -42,8 +42,9 @@ Your Planting Dates
 			@endforeach
 		</table><br />
 		
+		<p>Change Your <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">plant selection or last frost date</a></p>
 		<p>Please keep in mind that these dates are a guide and may need to be significantly different depending on your exact varieties or environmental conditions.</p>
-		<p>Change Your <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">Plant Selection</a></p>
+		<p>If you have comments on this Planting Dates Calculator, please send me an email using the form <a class="link" href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">here</a>.</p>
 	</div><!--.row -->
 </article>
 
