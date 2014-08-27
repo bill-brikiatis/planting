@@ -789,6 +789,25 @@ class PlantTableSeeder extends Seeder
 		$plant = new Plant;
 		
 		$plant->fill(array(
+				'plant_name' => 'Watermelon',
+				'indoor_offset_days' => -14,
+				'outdoor_offset_days' => 14,
+				'transplant_offset_days' => 14,
+				'direct_sow' => 1,
+				'ads' => '<span>Click the Photo for<br /> Info on Watermelon Seeds</span>
+		<a href="http://www.amazon.com/gp/product/B006HXIT9S/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006HXIT9S&linkCode=as2&tag=subuhobbfarm-20&linkId=CUVD5EWVIWUWH6XO">
+		<img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006HXIT9S&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a>
+		<img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B006HXIT9S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+		
+		));
+		
+		$plant->save();
+		
+		
+		DB::table('plants');
+		$plant = new Plant;
+		
+		$plant->fill(array(
 				'plant_name' => 'Zucchini',
 				'indoor_offset_days' => -14,
 				'outdoor_offset_days' => 'NULL',
@@ -804,23 +823,7 @@ class PlantTableSeeder extends Seeder
 		$plant->save();
 		
 		
-		DB::table('plants');
-		$plant = new Plant;
-		
-		$plant->fill(array(
-				'plant_name' => 'Watermelon',
-				'indoor_offset_days' => 14,
-				'outdoor_offset_days' => 14,
-				'transplant_offset_days' => 14,
-				'direct_sow' => 1,
-				'ads' => '<span>Click the Photo for<br /> Info on Watermelon Seeds</span>
-		<a href="http://www.amazon.com/gp/product/B006HXIT9S/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006HXIT9S&linkCode=as2&tag=subuhobbfarm-20&linkId=CUVD5EWVIWUWH6XO">
-		<img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006HXIT9S&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a>
-		<img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B006HXIT9S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
-		
-		));
-		
-		$plant->save();
+
 		
 		
 		
