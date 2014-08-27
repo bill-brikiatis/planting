@@ -429,7 +429,7 @@ class PlantTableSeeder extends Seeder
 		
 		$plant->fill(array(
 				'plant_name' => 'Melon',
-				'indoor_offset_days' => 14,
+				'indoor_offset_days' => -14,
 				'outdoor_offset_days' => 14,
 				'transplant_offset_days' => 14,
 				'direct_sow' => 1,
