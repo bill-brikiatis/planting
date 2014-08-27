@@ -21,6 +21,13 @@ class PlantsController  extends BaseController {
 				$plant_table[] = Plant::all();
 				//print_r($plant_table);
 				$checked_plants[] = Input::get('plant_list');
+				/*if (!$checked_plants[0])
+				{
+					return Redirect::to('/')
+		        	//->with_input();
+		        	->with('flash_message', 'Please select at least one plant.');
+				}*/
+				
 				foreach ($plant_table as $plant) {
 					foreach ($plant as $row) {
 						if (!in_array(trim($row->plant_name), $checked_plants[0])) {
