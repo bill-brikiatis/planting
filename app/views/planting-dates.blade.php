@@ -57,7 +57,7 @@ Your Planting Dates
 				}
 			}
 		?>
-		<p>$article</p>
+		<p><?php echo "$article" ?></p>
 		<p>If you have comments on this Planting Dates Calculator, please send me an email using the form <a class="link" href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">here</a>.</p>
 	</div><!--.row -->
 </article>
