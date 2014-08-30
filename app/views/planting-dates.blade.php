@@ -44,6 +44,20 @@ Your Planting Dates
 		
 		<p>Change Your <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">plant selection or last frost date</a></p>
 		<p>Please keep in mind that these dates are a guide and may need to be significantly different depending on your exact varieties or environmental conditions.</p>
+		<?php 
+			foreach ($plant_table as $plant) {
+				switch($plant) {
+					case 'Zucchini':
+						$article = "<p>Since you are planing to grow $plant, you may want to read <a href='http://www.suburbanhobbyfarmer.com/controlling-squash-borer-ii/'>Controlling Squash Borer II</a>'</p>";
+						break;
+					case 'Arugula':
+						$article = "<p>Since you are planing to grow $plant, you may want to read <a href='http://www.suburbanhobbyfarmer.com/easy-to-grow-crops/'>Controlling Squash Borer II</a>'</p>";
+					default:
+						// Do nothing
+				}
+			}
+		?>
+		<p>$article</p>
 		<p>If you have comments on this Planting Dates Calculator, please send me an email using the form <a class="link" href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">here</a>.</p>
 	</div><!--.row -->
 </article>
