@@ -42,22 +42,47 @@ Your Planting Dates
 			@endforeach
 		</table><br />
 		
-		<p>Change Your <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">plant selection or last frost date</a></p>
+		<p>You can change your plant selection or last frost date <a class="link" href="http://planting-dates.suburbanhobbyfarmer.com/">here</a>.</p>
 		<p>Please keep in mind that these dates are a guide and may need to be significantly different depending on your exact varieties or environmental conditions.</p>
 		<?php 
+			$article = null;
 			foreach ($plant_table as $plant) {
-				switch($plant) {
-					case 'Zucchini':
-						$article = "<p>Since you are planing to grow $plant, you may want to read <a href='http://www.suburbanhobbyfarmer.com/controlling-squash-borer-ii/'>Controlling Squash Borer II</a>'</p>";
+				foreach ($plant as $row) {
+					if ($article) {
 						break;
-					case 'Arugula':
-						$article = "<p>Since you are planing to grow $plant, you may want to read <a href='http://www.suburbanhobbyfarmer.com/easy-to-grow-crops/'>Controlling Squash Borer II</a>'</p>";
-					default:
-						// Do nothing
+					}
+					else {
+						switch($row->plant_name) {
+							case 'Tomatoes':
+								$article_plant = ($row->plant_name);
+								$article = "<p>Since you are planing to grow $article_plant, you may want to read the Suburban Hobby Farmer article <a href='http://www.suburbanhobbyfarmer.com/fermenting-tomato-seeds/'>Is Fermenting Tomato Seeds Necessary?</a>.</p>";
+								break;
+								
+								case 'Zucchini':
+								$article_plant = ($row->plant_name);
+								$article = "<p>Since you are planing to grow $article_plant, you may want to read the Suburban Hobby Farmer article  <a href='http://www.suburbanhobbyfarmer.com/controlling-squash-borer-ii/'>Controlling Squash Borer II</a>.</p>";
+								break;
+								
+								case 'Arugula':
+								$article_plant = ($row->plant_name);
+								$article = "<p>Since you are planing to grow $article_plant, you may want to read the Suburban Hobby Farmer article <a href='http://www.suburbanhobbyfarmer.com/easy-to-grow-crops/'>Easy to Grow Crops</a>.</p>";
+								break;
+								
+								case 'Lettuce':
+								$article_plant = ($row->plant_name);
+								$article = "<p>Since you are planing to grow $article_plant, you may want to read the Suburban Hobby Farmer article <a href='http://www.suburbanhobbyfarmer.com/lettuce-fall-vegetable-garden/'>Lettuce in the Fall Vegetable Garden</a>.</p>";
+								break;
+								
+								case 'Cucumbers':
+								$article_plant = ($row->plant_name);
+								$article = "<p>Since you are planing to grow $article_plant, you may want to read the Suburban Hobby Farmer article <a href='http://www.suburbanhobbyfarmer.com/transplanting-seedlings/'>Transplanting Seedlings Outdoors</a>.</p>";
+								break;
+						}
+					}
 				}
 			}
 		?>
-		<p><?php echo "$article" ?></p>
+		<p><?php echo "$article"; ?></p>
 		<p>If you have comments on this Planting Dates Calculator, please send me an email using the form <a class="link" href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">here</a>.</p>
 	</div><!--.row -->
 </article>
