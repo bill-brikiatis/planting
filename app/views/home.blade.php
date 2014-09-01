@@ -61,8 +61,8 @@
 				</div>
 		</div><!-- .row -->
 	</article>
-	<!--<div class="clear_bb"></div>-->
 	
+	<aside class="sidebar_back">dfdfdfdfdfdfdfdf</aside>
 	<aside class="sidebar">
 		<span>Click the Photo for<br />High Tunnel Details</span>
 		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">

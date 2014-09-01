@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	<script src="js/respond.min.js"></script>
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" />
+	<link rel="shortcut icon" href="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2010/12/sf.jpg"/>
 
 </head>
 <body>

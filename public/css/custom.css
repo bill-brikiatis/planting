@@ -148,7 +148,6 @@ aside.sidebar {
     box-shadow: 3px 0 0 rgba(0, 0, 0, 0.03) inset;
     overflow: hidden;
     width: 307px;
-    /*height: inherit;*/
     float: right;
     margin: 0 0 10px;
     text-transform: uppercase;
