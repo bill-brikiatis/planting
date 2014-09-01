@@ -165,6 +165,7 @@ footer {
 	background: none repeat scroll 0 0 #080808;
     border-top: 4px solid #616161;
     margin-top: 20px;
+    height: 400px;
 }
 
 footer span {
@@ -176,7 +177,7 @@ footer span {
 }
 
 footer span a, footer span a:hover {
-	font-weight: 700px;
+	font-weight: 700;
 	color: #FFF;
 	text-decoration: none;
 	cursor: pointer;

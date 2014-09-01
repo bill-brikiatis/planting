@@ -87,7 +87,7 @@ Your Planting Dates
 	</div><!--.row -->
 </article>
 
-<aside class="sidebar">
+	<aside class="sidebar">
 		
 		
 		<?php foreach ($plant_table as $plant): ?>
