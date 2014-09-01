@@ -14,7 +14,11 @@ article.main {
 }
 
 .alert-danger {
+	display: block;
 	font-size: 40px;
+	padding: 5px;
+	border: 3px dotted #000;
+	margin: 10px;
 }
 
 /* Header & Nav */
