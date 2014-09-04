@@ -10,7 +10,7 @@ Your Planting Dates
 
 @section('start')
 
-<article class="main">
+<article class="main" id="extend_main">
 	<div class="row">
 		<h1 class="text_center">Vegetable Garden<br />Planting Dates Calculator</h1><br />
 		<p>The last frost date you selected is <strong>{{ $date }}</strong>.</p>
@@ -86,7 +86,7 @@ Your Planting Dates
 		<p>If you have comments on this Planting Dates Calculator, please send me an email using the form <a class="link" href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">here</a>.</p>
 	</div><!--.row -->
 </article>
-	<aside class="sidebar">
+	<aside class="sidebar" id="extend_sidebar">
 		
 		
 		<?php foreach ($plant_table as $plant): ?>

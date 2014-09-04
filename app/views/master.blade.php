@@ -16,9 +16,10 @@
 	<script src="js/respond.min.js"></script>
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" />
 	<link rel="shortcut icon" href="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2010/12/sf.jpg"/>
+	{{ HTML::script('js/extend.js') }}
 
 </head>
-<body>
+<body onload="extendSidebar('extend_main', 'extend_sidebar')">
 	<div class="container">
 		<header class="row">
 			@if(Session::get('flash_message'))

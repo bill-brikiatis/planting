@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('start')
-	<article class="main">
+	<article class="main" id="extend_main">
 		<div class="row">
 			<h1 class="text_center">Vegetable Garden<br />Planting Dates Calculator</h1>
 			<h2>Start Here</h2>
@@ -62,8 +62,7 @@
 		</div><!-- .row -->
 	</article>
 	
-	<aside class="sidebar_back">dfdfdfdfdfdfdfdf</aside>
-	<aside class="sidebar">
+	<aside class="sidebar" id="extend_sidebar">
 		<span>Click the Photo for<br />High Tunnel Details</span>
 		<a href="http://www.amazon.com/gp/product/B000AMP9CC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000AMP9CC&linkCode=as2&tag=subuhobbfarm-20">
 			<img alt="Click Here for Details" src="http://www.suburbanhobbyfarmer.com/wp-content/uploads/2012/11/weatherguard_full.jpg">
