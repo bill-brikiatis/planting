@@ -31,7 +31,7 @@
 				<a href="http://www.suburbanhobbyfarmer.com/"><img src=' {{ URL::to("images/shf_logo.jpg") }} ' alt="Suburban Hobby Farmer"></a>
 				</div>
 		    	<ul class="nav nav-tabs nav_right">
-		        	<li><a href="#">Partner with SHF</a></li>
+		        	<li><a href="http://www.suburbanhobbyfarmer.com/partner-with-shf/">Partner with SHF</a></li>
 		        	<li class="active"><a href="#">Planting Dates</a></li>
 		        	<li><a href="http://astore.amazon.com/subuhobbfarm-20">Bookstore</a></li>
 		        	<li><a href="http://www.suburbanhobbyfarmer.com/about/">About</a></li>  
