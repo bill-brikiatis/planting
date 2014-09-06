@@ -594,6 +594,21 @@ class PlantTableSeeder extends Seeder
 		
 		$plant->save();
 		
+			$plant->fill(array(
+				'plant_name' => 'Potatoes',
+				'indoor_offset_days' => 'NULL',
+				'outdoor_offset_days' => 0,
+				'transplant_offset_days' => 'NULL',
+				'direct_sow' => 1,
+				'ads' => '<span>Click the Photo for<br /> Info on Seed Potatoes</span>
+		<a href="http://www.amazon.com/gp/product/B007IY50J2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007IY50J2&linkCode=as2&tag=subuhobbfarm-20&linkId=F5COOL3YOWBQVO7E">
+		<img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B007IY50J2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=subuhobbfarm-20" ></a>
+		<img src="http://ir-na.amazon-adsystem.com/e/ir?t=subuhobbfarm-20&l=as2&o=1&a=B007IY50J2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+		
+		));
+		
+		$plant->save();
+		
 		
 		DB::table('plants');
 		$plant = new Plant;

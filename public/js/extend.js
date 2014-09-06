@@ -9,8 +9,7 @@ function extendSidebar(idOne, idTwo) {
 	var pageHeight = 0;
 	if(main >= sidebar) {
 		pageHeight = main;
-	}
-	else {
+	} else {
 		pageHeight = sidebar;
 	}
 	
