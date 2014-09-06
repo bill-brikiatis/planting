@@ -1,6 +1,6 @@
-function extendSidebar(id_one, id_two) {
-	var main = document.getElementById(id_one).offsetHeight;
-	var sidebar = document.getElementById(id_two).offsetHeight;
+function extendSidebar(idOne, idTwo) {
+	var main = $('#' + idOne).height();
+	var sidebar = $('#' + idTwo).height();
 	var pageHeight = 0;
 	if(main > sidebar) {
 		pageHeight = main;
